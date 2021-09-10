@@ -1,0 +1,16 @@
+@import '_config.scss';
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: $global-margin-y;
+}
+
+.logo {
+  width: 126px;
+}
+
+nav {
+  font-size: $font-size-normal;
+}
