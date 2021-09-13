@@ -1,4 +1,11 @@
 //margin and padding classes
 
-$global-margin-y: 0 16.5rem;
-$font-size-normal: 2rem;
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff') format('woff'),
+    url('../fonts/Roboto-Medium.woff2') format('woff2');
+}
+
+$global-margin-y: 0 2.5rem;
+$font-size-normal: 2.5rem;
+$font-secondary: 'Roboto';

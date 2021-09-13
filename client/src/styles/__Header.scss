@@ -3,8 +3,10 @@
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: $global-margin-y;
+  padding: 20px 0;
+  font-family: $font-secondary;
 }
 
 .logo {
@@ -13,4 +15,21 @@ header {
 
 nav {
   font-size: $font-size-normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > div {
+  margin: 0 3.4rem;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-section-icon {
+  margin: 0 1rem;
 }
