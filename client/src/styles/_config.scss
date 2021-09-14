@@ -1,4 +1,4 @@
-//margin and padding classes
+//fonts
 
 @font-face {
   font-family: 'Roboto';
@@ -6,6 +6,28 @@
     url('../fonts/Roboto-Medium.woff2') format('woff2');
 }
 
-$global-margin-y: 0 10.5rem;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Medium.woff') format('woff'),
+    url('../fonts/Poppins-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica-Light.woff') format('woff');
+}
+
 $font-size-normal: 1rem;
+$font-size-large: 2.8rem;
+$font-primary: 'Poppins';
 $font-secondary: 'Roboto';
+
+//margin and paddings
+
+$global-margin-y: 0 10.5rem;
+
+//colors
+
+$color-title: #1d252c;
+$color-subtitle: #5e6e89;
+$color-green: #56b280;

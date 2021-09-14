@@ -11,15 +11,42 @@
 
 .inner-container {
   width: 40%;
-  height: 349px;
+  height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: whitesmoke;
   opacity: 0.9;
+  font-family: $font-primary;
+}
+
+.inner-container-text > * {
+  text-align: center;
+}
+
+.inner-container-text > p {
+  font-family: Helvetica;
+  font-size: 1.3rem;
+  color: #1d252c;
+  line-height: 25.6px;
 }
 
 .inner-container-text > h1 {
-  text-align: center;
+  font-size: $font-size-large;
+  font-weight: 100;
+}
+
+.inner-container > * {
+  margin: 10px;
+}
+
+.hero-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  margin: 40px 0;
 }

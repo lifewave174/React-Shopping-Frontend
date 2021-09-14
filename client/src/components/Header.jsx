@@ -10,7 +10,7 @@ const Header = () => {
         <Logo />
       </div>
       <nav>
-        <div>Shopping</div>
+        <div>Discover</div>
         <div>About</div>
         <div>Contact Us</div>
       </nav>
