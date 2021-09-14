@@ -1,0 +1,25 @@
+@import '_config.scss';
+
+.outer-container {
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: center/cover no-repeat url('../images/bg-image.jpg');
+}
+
+.inner-container {
+  width: 40%;
+  height: 349px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  opacity: 0.9;
+}
+
+.inner-container-text > h1 {
+  text-align: center;
+}
