@@ -1,13 +1,16 @@
 import React from 'react';
 import Header from './Header';
 import Hero from './Hero';
-import '../styles/GlobalStyles.scss';
+import GlobalState from '../context/candlesContext';
+import '../styles/App.scss';
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <Hero />
+      <GlobalState>
+        <Header />
+        <Hero />
+      </GlobalState>
     </div>
   );
 };
