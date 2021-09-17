@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ReactComponent as HeroSvg } from '../images/hero-title.svg';
 
 const Hero = () => {
   return (
-    <hero className="outer-container">
+    <div className="hero">
       <div className="inner-container">
         <HeroSvg className="hero-svg" />
         <div className="inner-container-text">
@@ -13,9 +14,11 @@ const Hero = () => {
             all your pleasure moments
           </p>
         </div>
-        <div className="btn-primary">Discover our collection</div>
+        <Link to="/shop">
+          <div className="btn-primary">Discover our collection</div>
+        </Link>
       </div>
-    </hero>
+    </div>
   );
 };
 

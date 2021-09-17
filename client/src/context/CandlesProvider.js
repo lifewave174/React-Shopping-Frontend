@@ -1,8 +1,8 @@
 import { createContext, useState, useEffect } from 'react';
 
-const CandlesContext = createContext();
+export const CandlesContext = createContext();
 
-const GlobalState = ({ children }) => {
+const CandlesProvider = ({ children }) => {
   const [candlesData, setCandlesData] = useState([]);
 
   useEffect(() => {
@@ -10,6 +10,7 @@ const GlobalState = ({ children }) => {
       const response = await fetch('http://localhost:5000/candles');
       const data = await response.json();
       setCandlesData(data);
+      console.log(data);
     };
     getData();
   }, []);
@@ -21,4 +22,4 @@ const GlobalState = ({ children }) => {
   );
 };
 
-export default GlobalState;
+export default CandlesProvider;

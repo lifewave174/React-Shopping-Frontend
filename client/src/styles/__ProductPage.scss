@@ -1,0 +1,46 @@
+@import '_config.scss';
+
+.products-page {
+  margin: $global-margin-y;
+
+  .heading {
+    text-align: center;
+    padding: 4.5rem 0;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: $color-title;
+    font-size: 1.2rem;
+  }
+}
+.products-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  width: fit-content;
+  padding: 0 0 10px 0;
+  box-shadow: -2px 6px 22px 16px #f7f7f7;
+  margin: 20px;
+  > p {
+    padding: 10px 20px 2px;
+  }
+}
+
+.product-image {
+  background-color: #f7f8fa;
+}
+
+.product-name {
+  color: $color-title;
+  font-family: 'Poppins';
+  font-size: 1.2rem;
+}
+
+.product-price {
+  color: $color-green;
+  font-family: 'Roboto';
+  font-size: 1.2rem;
+}
