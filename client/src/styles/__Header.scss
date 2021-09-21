@@ -4,8 +4,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: $global-margin-y;
-  padding: 20px 0;
+  padding: 20px $global-margin-y;
   font-family: $font-secondary;
 }
 

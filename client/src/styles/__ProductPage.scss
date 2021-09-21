@@ -1,13 +1,14 @@
 @import '_config.scss';
 
 .products-page {
-  margin: $global-margin-y;
+  margin: 0 $global-margin-y;
   text-align: center;
-  padding: 4.5rem 0;
+  padding: 4rem 0;
   font-family: $font-primary;
 }
 
 .heading {
+  margin: 0 0 4.5rem;
   h1 {
     font-weight: 500;
     color: $color-title;
@@ -17,11 +18,12 @@
 
   p {
     font-size: 1.2rem;
+    color: #5e6e89;
   }
 }
 .products-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -49,4 +51,5 @@
   color: $color-green;
   font-family: 'Roboto';
   font-size: 1.2rem;
+  float: right;
 }

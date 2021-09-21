@@ -1,0 +1,47 @@
+@import '_config.scss';
+
+.footer {
+  height: 10%;
+  background-color: $color-dark;
+  color: #e1e1e1;
+  padding: 60px $global-margin-y;
+
+  .footer-border {
+    border-bottom: 2px solid white;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      width: 235px;
+      font-size: 0.85rem;
+      font-family: $font-primary;
+      text-align: left;
+      position: relative;
+      bottom: 15px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: space-around;
+      width: 510px;
+      padding: 30px 0 20px;
+      font-family: $font-primary;
+
+      li,
+      h5 {
+        padding: 10px;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      h5 {
+        color: $color-green;
+      }
+    }
+  }
+}

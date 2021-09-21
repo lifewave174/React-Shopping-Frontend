@@ -8,9 +8,7 @@ const ProductsPage = () => {
         <h1>Products</h1>
         <p>Order homemade candles for you or your beloved ones</p>
       </div>
-      <div className="products-page">
-        <ProductsList />
-      </div>
+      <ProductsList />
     </div>
   );
 };
