@@ -2,13 +2,20 @@
 
 .products-page {
   margin: $global-margin-y;
+  text-align: center;
+  padding: 4.5rem 0;
+  font-family: $font-primary;
+}
 
-  .heading {
-    text-align: center;
-    padding: 4.5rem 0;
-    font-family: 'Poppins';
-    font-weight: 300;
+.heading {
+  h1 {
+    font-weight: 500;
     color: $color-title;
+    font-size: $font-size-large;
+    letter-spacing: -0.9 px;
+  }
+
+  p {
     font-size: 1.2rem;
   }
 }
@@ -35,7 +42,6 @@
 
 .product-name {
   color: $color-title;
-  font-family: 'Poppins';
   font-size: 1.2rem;
 }
 

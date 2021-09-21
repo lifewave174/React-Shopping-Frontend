@@ -6,7 +6,7 @@ const ProductsPage = () => {
     <div className="products-page">
       <div className="heading">
         <h1>Products</h1>
-        <p>Order it for you or your beloved ones</p>
+        <p>Order homemade candles for you or your beloved ones</p>
       </div>
       <div className="products-page">
         <ProductsList />
