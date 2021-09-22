@@ -7,14 +7,20 @@ app.use(cors());
 
 //import candles API
 const candles = require("./candlesApi");
-const { response } = require("express");
 
 //set up port
 
 app.use(express.json());
+//set up a way to send images with express.static
 
-app.listen(5000, () => {
-  console.log("Api has started successfully on port 5000");
+app.use(express.static("images"));
+
+//set up port
+
+const port = 5000;
+
+app.listen(port, () => {
+  console.log(`Api has started successfully on port ${port}`);
 });
 
 //set up a simple route

@@ -1,7 +1,9 @@
+const port = 5000;
+
 module.exports = [
   {
     productName: "Spiced Mint",
-    image: "./images/spicedmint.png",
+    image: `http://localhost:${port}/spicedmint.png`,
     price: 9.99,
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
@@ -15,7 +17,7 @@ module.exports = [
   },
   {
     productName: "Sweet Strawberry",
-    image: "./images/sweetstrawberry.png",
+    image: `http://localhost:${port}/sweetstrawberry.png`,
     price: 9.99,
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
@@ -29,7 +31,7 @@ module.exports = [
   },
   {
     productName: "Cool Blueberries",
-    image: "./images/coolblueberries.png",
+    image: `http://localhost:${port}/coolblueberries.png`,
     price: 9.99,
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
@@ -43,7 +45,7 @@ module.exports = [
   },
   {
     productName: "Juicy Lemon",
-    image: "./images/juicelemon.png",
+    image: `http://localhost:${port}/juicylemon.png`,
     price: 9.99,
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
@@ -57,7 +59,7 @@ module.exports = [
   },
   {
     productName: "Fresh Orange",
-    image: "./images/freshorange.png",
+    image: `http://localhost:${port}/freshorange.png`,
     price: 9.99,
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
@@ -71,7 +73,7 @@ module.exports = [
   },
   {
     productName: "Fragramt Cinnamon",
-    image: "./images/fragrantcinnamon.png",
+    image: `http://localhost:${port}/fragrantcinnamon.png`,
     price: 9.99,
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
@@ -85,7 +87,7 @@ module.exports = [
   },
   {
     productName: "Summer Cherries",
-    image: "./images/summercherries.png",
+    image: `http://localhost:${port}/summercherries.png`,
     price: 9.99,
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
@@ -99,7 +101,7 @@ module.exports = [
   },
   {
     productName: "Clean Lavendar",
-    image: "./images/cleanlavendar.png",
+    image: `http://localhost:${port}/cleanlavendar.png`,
     price: 9.99,
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
