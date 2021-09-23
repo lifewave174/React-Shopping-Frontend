@@ -4,8 +4,8 @@
   display: inline-block;
   border-radius: 5px;
   padding: 8px 20px;
-  margin: 3px;
   transition: 0.3s;
+  font-size: $font-size-normal;
 
   &:hover {
     background-color: darkgreen;

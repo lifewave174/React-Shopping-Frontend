@@ -10,8 +10,8 @@
 }
 
 .inner-container {
-  width: 40%;
-  height: 380px;
+  width: 45%;
+  height: 21rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,16 +21,21 @@
   font-family: $font-primary;
   > * {
     text-align: center;
-    margin: 10px;
+    margin-bottom: 15px;
+  }
+
+  .btn-primary {
+    margin-top: 25px;
   }
 }
 
 .inner-container-text {
   > p {
     font-family: 'Helvetica';
-    font-size: 1.3rem;
+    font-size: $font-size-normal + 0.2rem;
     color: #1d252c;
     line-height: 25.6px;
+    padding: 0 40px;
   }
   > h1 {
     font-size: $font-size-large;
@@ -42,8 +47,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.btn-primary {
-  margin: 40px 0;
 }
